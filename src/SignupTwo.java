@@ -180,7 +180,6 @@ public class SignupTwo extends JFrame implements ActionListener{
 	}
 	
 	public void actionPerformed(ActionEvent ae) {
-		String formno = "";
 		String sreligion = (String) religion.getSelectedItem();
 		String scategory = (String) category.getSelectedItem();
 		String sincome = (String) income.getSelectedItem();
